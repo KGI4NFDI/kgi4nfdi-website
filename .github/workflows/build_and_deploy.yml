@@ -48,4 +48,4 @@ jobs:
           sudo cp -r public/* $TARGET_DIR/
           sudo chown -R www-data:www-data $TARGET_DIR
           sudo chmod -R 755 $TARGET_DIR
-          rm -rf ~/actions-runner/_work/*
+          rm -rf ~/actions-runner/_work/kgi4nfdi-website
