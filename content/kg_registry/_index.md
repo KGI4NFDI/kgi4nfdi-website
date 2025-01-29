@@ -5,7 +5,7 @@ type: page
 
 dropdown_items:
   - query_label: "Get all triplets"
-    backend: "default"
+    backend: "https://api.dev.kgi.services.base4nfdi.de"
     query_path: "query_examples/list_all_triplets.rq"
     
   - query_label: "Count all triplets"

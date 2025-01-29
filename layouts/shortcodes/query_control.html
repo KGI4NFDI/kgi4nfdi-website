@@ -64,11 +64,7 @@
         const tab = yasgui.addTab(true, {name: query_name});
         // Set query and endpoint
         tab.setQuery(data);
-        let backend_url = btn_obj.getAttribute("data-backend");
-        if (backend_url === "default") {
-          backend_url = "http://juist.openstack.bielefeld:8888";
-        }
-        tab.setEndpoint(backend_url);
+        tab.setEndpoint(btn_obj.getAttribute("data-backend"));
         // Execute
         tab.query();
       },
