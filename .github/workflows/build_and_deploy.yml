@@ -48,4 +48,10 @@ jobs:
           sudo cp -r public/* $TARGET_DIR/
           sudo chown -R www-data:www-data $TARGET_DIR
           sudo chmod -R 755 $TARGET_DIR
-          rm -rf ~/actions-runner/_work/kgi4nfdi-website
+
+      - name: Clean Up Workspace
+        if: always()
+        run: |
+          echo "Cleaning up workspace..."
+          rm -rf $GITHUB_WORKSPACE/*
+          echo "Cleanup complete."
