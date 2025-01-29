@@ -20,14 +20,23 @@ jobs:
 
       - name: Install Hugo
         run: |
-          HUGO_VERSION=0.140.2  # Update this if needed
+          HUGO_VERSION=0.140.2  # Update if needed
           wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
           tar -xvzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
           sudo mv hugo /usr/local/bin/hugo
+          rm -f hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz  # Cleanup tarball
           hugo version
 
-      - name: Build Hugo site
-        run: hugo --minify
+      - name: Set Base URL
+        run: |
+          if [ "${{ github.ref }}" == "refs/heads/main" ]; then
+            echo "HUGO_BASEURL=https://kgi.services.base4nfdi.de/" >> $GITHUB_ENV
+          elif [ "${{ github.ref }}" == "refs/heads/dev" ]; then
+            echo "HUGO_BASEURL=https://wp.dev.kgi.services.base4nfdi.de/" >> $GITHUB_ENV
+          fi
+
+      - name: Build Hugo site with correct baseURL
+        run: hugo --minify --baseURL "$HUGO_BASEURL"
 
       - name: Determine target directory
         id: deploy-path
