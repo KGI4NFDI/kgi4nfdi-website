@@ -105,7 +105,7 @@ sections:
         KGI4NFDI is open to everyone. Whether you're a researcher, data steward, or part of a research institution, your contributions and feedback are vital to our success.
 
         ### Contact Us
-        For inquiries, collaboration opportunities, or support, visit our [Contact Page](#) or email us at **[your-email@example.com](mailto:your-email@example.com)**.
+        For inquiries, collaboration opportunities, or support, visit our [Contact Page](/contact/) or email us at **kgi4nfdi@lists.nfdi.de**.
 
         Together, we can shape the future of open, collaborative research.
 
