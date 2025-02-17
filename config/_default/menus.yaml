@@ -8,12 +8,12 @@ main:
     url: kg_registry
     weight: 10
 
-  - name: Contribute
-    url: contribute
-    weight: 20
-  - name: KG Guidelines
-    url: kg_guidelines
-    weight: 30
+  #- name: Contribute
+   # url: contribute
+  #  weight: 20
+  #- name: KG Guidelines
+  #  url: kg_guidelines
+  #  weight: 30
 
   - name: Consultancy
     url: consultancy

@@ -19,12 +19,12 @@ sections:
   
 
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}} {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
-    design:
-      columns: '1'
+#  - block: markdown
+#    content:
+#      title:
+#      subtitle:
+#      text: |
+#        {{% cta cta_link="./people/" cta_text="Meet the team →" %}} {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
+#    design:
+#      columns: '1'
 ---
