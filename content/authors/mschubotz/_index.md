@@ -1,11 +1,11 @@
 ---
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Josiah S. Carberry
+title: Moritz Schubotz
 
 # Full Name (for SEO)
-first_name: Josiah Stinkney
-last_name: Carberry
+first_name: Moritz
+last_name: Schubotz
 
 # Is this the primary user of the site?
 superuser: false
@@ -15,8 +15,8 @@ role: Principal investigator # or Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'Brown University: Providence, RI, US'
-    url: 'http://www.brown.edu/'
+  - name: 'FIZ Karlsruhe'
+    url: 'https://fiz-karlsruhe.de
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
 bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
