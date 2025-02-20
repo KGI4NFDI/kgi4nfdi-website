@@ -5,8 +5,9 @@ PREFIX vcard:   <http://www.w3.org/2006/vcard/ns#>
 PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wd:      <http://www.wikidata.org/entity/>
 PREFIX skos:    <http://www.w3.org/2004/02/skos/core#>
-
-SELECT DISTINCT ?dataset ?title ?description ?publisher ?publisherName
+SELECT ?dataset ?title ?description
+       (GROUP_CONCAT(DISTINCT ?publisher; separator=", ") AS ?publishers)
+       (GROUP_CONCAT(DISTINCT ?publisherName; separator=", ") AS ?publisherNames)
 WHERE {
   # Basic dataset metadata
   ?dataset a dcat:Dataset ;
@@ -26,10 +27,7 @@ WHERE {
   {
     SELECT ?publisher ?publisherNameWikidata
     WHERE {
-      # Get all unique publishers first
       { SELECT DISTINCT ?publisher WHERE { ?dataset dcterms:publisher ?publisher } }
-
-      # Resolve labels from Wikidata in one SERVICE call
       SERVICE <https://query.wikidata.org/sparql> {
         ?publisher rdfs:label ?publisherNameWikidata .
         FILTER(LANG(?publisherNameWikidata) = "en")
@@ -40,4 +38,5 @@ WHERE {
   # Prioritize local labels, fallback to Wikidata
   BIND(COALESCE(?publisherNameLocal, ?publisherNameWikidata) AS ?publisherName)
 }
+GROUP BY ?dataset ?title ?description
 ORDER BY ?title

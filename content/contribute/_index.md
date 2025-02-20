@@ -13,8 +13,8 @@ sections:
       
         Filling out the template takes less than five minutes, but you will need to create a free Github account before that, unless you have one already.
 
-        To check which KGs are already included in the KGI registry, consult this [list](https://zenodo.org/records/8332776)
-
+        To check which KGs are already included in the KGI registry, consult the following table:
+        {{< query_kgreg_items >}}
     design:
       columns: '1'
 ---
