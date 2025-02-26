@@ -14,12 +14,12 @@ sections:
         - Send your consultancy requests via email to our mailing list: kgi4nfdi@lists.nfdi.de
         - Join our monthly KGI4NFDI Consultancy Hour for direct discussions and expert guidance.
         #### Consultancy Hour Schedule:
-        - Every third Wednesday of the month at this [:link: Zoom Meeting](https://uni-mannheim.zoom-x.de/j/62449660255?pwd=6qSJqyFH9RTquIxXcoKJCf0RVZbYdJ.1)
-        or use the following details:
-          - :pushpin: Meeting ID: 624 4966 0255
-          - :key: Passcode: 916089
+        - :calendar: Every 3rd Wednesday of the month from **15:00** to **16:00**.
         
-        We look forward to supporting your Knowledge Graph projects! :rocket:
+          To join, use this [:link: Zoom Meeting](https://uni-mannheim.zoom-x.de/j/62449660255?pwd=6qSJqyFH9RTquIxXcoKJCf0RVZbYdJ.1), or use the following details:
+            - :pushpin: Meeting ID: 624 4966 0255
+            - :key: Passcode: 916089
+          We look forward to supporting your Knowledge Graph projects! :rocket:
 
     design:
       columns: '1'
