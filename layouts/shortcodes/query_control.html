@@ -7,26 +7,14 @@
 <script src="https://unpkg.com/@triply/yasgui/build/yasgui.min.js"></script>
 <div class="container-fluid">
   <div class="row">
-    <div class="col">
-      <div class="btn-group">
-        <button
-          class="btn btn-secondary dropdown-toggle"
-          type="button"
-          id="dropdownMenuButton"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-          data-bs-auto-close="true">
-          Query Examples
-        </button>
-        <ul class="dropdown-menu" id="dynamic-dropdown-menu" aria-labelledby="dropdownMenuButton">
-          {{ range .Page.Params.dropdown_items }}
-          <li>
-            <a onclick="execute_example_query(this);" class="dropdown-item" data-backend="{{ .backend }}"
-               data-query_path="{{ .query_path }}">{{ .query_label }}</a>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
+    <div class="col-4">
+      <select id="examples_select" class="form-select" aria-label="">
+        <option selected disabled>Select Example Query</option>
+        {{ range .Page.Params.dropdown_items }}
+        <option data-backend="{{ .backend }}" value="{{ .query_path }}">{{ .query_label }}</option>
+        {{ end }}
+      </select>
+
     </div>
   </div>
   <div class="row">
@@ -48,13 +36,30 @@
       autofocus: true,
     }
     yasgui = new Yasgui(document.getElementById("yasgui_div"), yasgui_options);
+    yasgui.getTab().setQuery("");
+
+    $('#examples_select')
+      .on('change', function () {
+        let enforced_endpoint = $('#examples_select option:selected').attr("data-backend");
+        if (enforced_endpoint) {
+          $("#endpoints_select").val(enforced_endpoint);
+        }
+        execute_example_query($('#examples_select :selected'));
+      }).on('load', function () {
+      let enforced_endpoint = $('#examples_select option:selected').attr("data-backend");
+      if (enforced_endpoint) {
+        $("#endpoints_select").val(enforced_endpoint);
+      }
+      execute_example_query($('#examples_select :selected'));
+    });
+
 
   })
 
-  function execute_example_query(btn_obj) {
-    const query_path = btn_obj.getAttribute("data-query_path");
-    // Either read data-query_label or the text from the link
-    const query_name = btn_obj.getAttribute("data-query_label") || btn_obj.textContent;
+  function execute_example_query(select_obj) {
+    const query_path = select_obj.val();
+    const query_name = select_obj.text();
+    const backend = select_obj.data("backend");
 
     $.ajax({
       url: query_path,
@@ -64,7 +69,7 @@
         const tab = yasgui.addTab(true, {name: query_name});
         // Set query and endpoint
         tab.setQuery(data);
-        tab.setEndpoint(btn_obj.getAttribute("data-backend"));
+        tab.setEndpoint(backend);
         // Execute
         tab.query();
       },
