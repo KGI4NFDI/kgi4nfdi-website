@@ -11,9 +11,11 @@ main:
   - name: Contribute
     url: contribute
     weight: 20
-  #- name: KG Guidelines
-  #  url: kg_guidelines
-  #  weight: 30
+
+  - name: KG Guidelines
+    #url: kg_guidelines
+    url: https://kgi4nfdi.github.io/Guidelines/
+    weight: 30
 
   - name: Consultancy
     url: consultancy
