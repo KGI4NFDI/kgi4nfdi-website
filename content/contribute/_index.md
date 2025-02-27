@@ -9,7 +9,7 @@ sections:
       title: Contribute to the KGI Registry
       subtitle: 
       text: | 
-        We welcome contributions of Knowledge Graphs (KGs) used and/or maintained within any NFDI consortium to the KGI registry. To contribute a new KG, just fill out the [template issue](https://github.com/KGI4NFDI/kgi4nfdi_registry_data/issues/new?template=data-contribution.md) in our Github repo.
+        We welcome contributions of Knowledge Graphs (KGs) used and/or maintained within any NFDI consortium to the KGI registry. To contribute a new KG, just fill out the [template issue](https://github.com/KGI4NFDI/kgi4nfdi_registry_data/issues/new?template=data-contribution.md) in our Github repository.
       
         Filling out the template takes less than five minutes, but you will need to create a free Github account before that, unless you have one already.
 
