@@ -17,8 +17,9 @@ sections:
         - :calendar: Every 3rd Wednesday of the month from **15:00** to **16:00**.
         
           To join, use this [:link: Zoom Meeting](https://uni-mannheim.zoom-x.de/j/62449660255?pwd=6qSJqyFH9RTquIxXcoKJCf0RVZbYdJ.1), or use the following details:
-            - :pushpin: Meeting ID: 624 4966 0255
-            - :key: Passcode: 916089
+            - :pushpin: Meeting ID: ```624 4966 0255```
+            - :key: Passcode: ```916089```
+          
           We look forward to supporting your Knowledge Graph projects! :rocket:
 
     design:
