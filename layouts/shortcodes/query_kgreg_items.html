@@ -47,7 +47,7 @@ GROUP BY ?dataset ?title ?description
 ORDER BY ?title`;
 
 
-    const endpoint = "https://api.dev.kgi.services.base4nfdi.de";
+    const endpoint = "https://sparql.kgi.services.base4nfdi.de/api/";
     (async () => {
       const url = `${endpoint}?query=${encodeURIComponent(sparqlQuery)}`;
 
