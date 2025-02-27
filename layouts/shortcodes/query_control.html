@@ -8,7 +8,7 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-4">
-      <select id="examples_select" class="form-select" aria-label="">
+      <select id="examples_select" class="form-select form-select-sm" aria-label="">
         <option selected disabled>Select Example Query</option>
         {{ range .Page.Params.dropdown_items }}
         <option data-backend="{{ .backend }}" value="{{ .query_path }}">{{ .query_label }}</option>
