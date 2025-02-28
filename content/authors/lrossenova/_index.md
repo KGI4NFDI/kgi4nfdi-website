@@ -15,7 +15,7 @@ role: Principal investigator # or Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'TIB – Leibniz Information Center for Science and Technology'
+  - name: 'TIB – Leibniz Information Centre for Science and Technology'
     url: 'http://www.tib.eu/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
