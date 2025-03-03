@@ -94,7 +94,7 @@ sections:
 
         These institutions collaborate with researchers, data stewards, and technologists to ensure the service reflects the needs and values of the research community.
 
-        {{% cta cta_link="./team/" cta_text="Meet KGI4NFDI Team →" %}}
+        {{% cta cta_link="/team/" cta_text="Meet KGI4NFDI Team →" %}}
 
     design:
       columns: '1'
@@ -104,9 +104,9 @@ sections:
       title: Get Involved
       subtitle: Help the KGI Service Meet Its Goals 
       text: |
-        KGI4NFDI relies on the active contibutions and feedback of the entire research community. There are meaningful ways for everyone to get involved:
+        KGI4NFDI relies on the active contributions and feedback of the entire research community. There are meaningful ways for everyone to get involved:
         - Bug reports and features requests for the service hub can be submitted directly via issues to the relevant [GitHub repository](https://github.com/KGI4NFDI). 
-        - Case study ideas for cross-discipilinary data queries are always welcome and can be featured as examples on the Registy and the Showcases pages. 
+        - Case study ideas for cross-disciplinary data queries are always welcome and can be featured as examples on the Registy and the Showcases pages. 
         - Feedback on guidelines or requests for support can be raised during the [Consultation hour](https://wp.dev.kgi.services.base4nfdi.de/consultancy) or submitted in writing to our contact address.  
 
         ### Contact Us
