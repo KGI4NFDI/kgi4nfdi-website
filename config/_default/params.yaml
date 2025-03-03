@@ -13,14 +13,13 @@ appearance:
 
 # SEO
 
-# TODO adjust this file
 
 marketing:
   seo:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'Our cool KGI4NFDI service'
+    description: 'KGI4NFDI base service of NFDI'
     twitter: ''
   analytics:
     baidu_tongji: ''
@@ -47,10 +46,11 @@ header:
 # Site footer
 
 footer:
-  about: '<b>This page</b><br>
-    Find this page on <a href="https://github.com/KGI4NFDI/kgi4nfdi-website" target="_blank" rel="noopener noreferrer">
-      <i class="fab fa-github fa-lg text-white"></i>
-    </a>'
+  about: '<b>KGI4NFDI</b><br>
+    <a href="/about">About the KGI service</a><br>
+    <!--<a href="/team">Meet the team</a><br>-->
+    Contact: <a href="mailto:kgi4nfdi@lists.nfdi.de">kgi4nfdi@lists.nfdi.de</a><br>'
+
   mission: '<b>Base4NFDI</b><br>
         [What is Base4NDFI?](https://www.base4nfdi.de)<br>
         [What is a Basic Service?](https://base4nfdi.de/process/basic-services)<br>
@@ -94,7 +94,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/base4nfdi/website-template-hugo'
+    url: 'https://github.com/KGI4NFDI/kgi4nfdi-website'
     content_dir: content
     branch: main
   avatar:

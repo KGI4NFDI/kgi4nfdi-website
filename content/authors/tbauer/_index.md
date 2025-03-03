@@ -1,11 +1,11 @@
 ---
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Josiah S. Carberry
+title: Thomas Bauer
 
 # Full Name (for SEO)
-first_name: Josiah Stinkney
-last_name: Carberry
+first_name: Thomas
+last_name: Bauer
 
 # Is this the primary user of the site?
 superuser: false

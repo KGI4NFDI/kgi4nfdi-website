@@ -1,11 +1,11 @@
 ---
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Josiah S. Carberry
+title: Till Sauerwein
 
 # Full Name (for SEO)
-first_name: Josiah Stinkney
-last_name: Carberry
+first_name: Till
+last_name: Sauerwein
 
 # Is this the primary user of the site?
 superuser: false
@@ -61,7 +61,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Team Members # or Project Team Members
+  - Project Team Members
 ---
 
 Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
