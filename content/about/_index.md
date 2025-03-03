@@ -94,7 +94,7 @@ sections:
 
         These institutions collaborate with researchers, data stewards, and technologists to ensure the service reflects the needs and values of the research community.
 
-        {{% cta cta_link="/team/" cta_text="Meet KGI4NFDI Team →" %}}
+        
 
     design:
       columns: '1'
@@ -115,3 +115,4 @@ sections:
     design:
       columns: '1'
 ---
+# {{% cta cta_link="/team/" cta_text="Meet KGI4NFDI Team →" %}}
