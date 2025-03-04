@@ -13,7 +13,6 @@ appearance:
 
 # SEO
 
-# TODO adjust this file
 
 marketing:
   seo:
@@ -48,9 +47,9 @@ header:
 
 footer:
   about: '<b>KGI4NFDI</b><br>
-    <a href="/about" target="_blank">About the KGI service</a><br>
-    <a href="/team" target="_blank">Meet the team</a><br>
-    Contact: <a href="mailto:kgi4nfdi@lists.nfdi.de" target="_blank">kgi4nfdi@lists.nfdi.de</a><br>'
+    <a href="/about">About the KGI service</a><br>
+    <!--<a href="/team">Meet the team</a><br>-->
+    Contact: <a href="mailto:kgi4nfdi@lists.nfdi.de">kgi4nfdi@lists.nfdi.de</a><br>'
 
   mission: '<b>Base4NFDI</b><br>
         [What is Base4NDFI?](https://www.base4nfdi.de)<br>
