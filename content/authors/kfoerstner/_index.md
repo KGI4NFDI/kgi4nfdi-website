@@ -27,14 +27,14 @@ interests:
   - Knowledge Graphs
   - Open Science
 
-education:
-  courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+#education:
+#  courses:
+#    - course: tba
+#      institution: tba
+#      year: 2000
+#    - course: tba
+#      institution: tba
+#      year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
