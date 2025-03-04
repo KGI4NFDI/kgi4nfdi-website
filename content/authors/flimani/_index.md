@@ -25,7 +25,7 @@ bio: Fidan Limani has been engaged with (national) research data infrastructure 
 
 interests:
   - Knowledge Graph 
-  - Graph Databases & Representation (Labeled Property Graphs-, RDF-based, etc.)
+  - Graph Databases & Representation (Labeled Property Graphs, RDF-based, etc.)
   - Semantic Web / Linked Data
 
 #education:
