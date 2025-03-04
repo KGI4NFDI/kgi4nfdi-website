@@ -62,7 +62,7 @@ social:
     link: https://www.linkedin.com/in/muhoss/
   - icon: mastodon
     icon_pack: fab
-    link: https://scholar.social/@muhoss
+    link: https://mastodon.social/@muhoss
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.com/citations?user=kIFg9-gAAAAJ
