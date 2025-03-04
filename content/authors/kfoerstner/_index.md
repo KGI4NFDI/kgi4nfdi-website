@@ -47,6 +47,21 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0002-1481-2996
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/konrad
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/muhoss/
+  - icon: mastodon
+    icon_pack: fab
+    link: https://scholar.social/@kuf
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=n-GoW_IAAAAJ
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Konrad-Foerstner
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
