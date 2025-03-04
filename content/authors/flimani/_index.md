@@ -15,14 +15,18 @@ role: Principal investigator # or Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'ZBW – Leibniz Information Centre for Economics'
+  - name: 'ZBW – Leibniz Information Centre for Economics, Kiel'
     url: ''
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: 
+bio: Fidan Limani has been engaged with (national) research data infrastructure projects since 2017. This includes research data management aspects and services implementation for
+      different research communities, such as [KonsortSWD](https://www.konsortswd.de/) or [NFDI4DataScience](https://www.nfdi4datascience.de/). Another part of his research
+      includes the adoption of Knowledge Graphs as integration means for the scholarly research deliverables iof library environments.
 
 interests:
-  - 
+  - Knowledge Graph 
+  - Graph Databases & Representation (Labeled Property Graphs-, RDF-based, etc.)
+  - Semantic Web / Linked Data  - 
 
 education:
   courses:
@@ -61,5 +65,3 @@ highlight_name: true
 user_groups:
   - Principal Investigators # or Project Team Members
 ---
-
-Short bio...
