@@ -66,3 +66,7 @@ highlight_name: true
 user_groups:
   - Principal Investigators # or Project Team Members
 ---
+- 
+- Short bio: Fidan Limani has been engaged with (national) research data infrastructure projects since 2017. This includes research data management aspects and services implementation for
+  different research communities, such as [KonsortSWD](https://www.konsortswd.de/) or [NFDI4DataScience](https://www.nfdi4datascience.de/). Another part of his research
+  includes the adoption of Knowledge Graphs as integration means for the scholarly research deliverables iof library environments.
