@@ -19,10 +19,11 @@ organizations:
     url: 'http://www.gesis.org/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
+bio: Benjamin Zapilko is a postdoctoral researcher in the team Information Extraction & Linking at the GESIS department Knowledge Technologies for the Social Sciences (KTS) at GESIS. His research focuses on the area of knowledge graphs and knowledge representation. He is a principal investigator of KGI4NFDI.
 
 interests:
   - Knowledge Graphs
+  - Knowledge Engineering
   - Metadata Standards
 
 education:
@@ -59,4 +60,4 @@ user_groups:
   - Principal Investigators
 ---
 
-Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
+Benjamin Zapilko is a postdoctoral researcher in the team Information Extraction & Linking at the GESIS department Knowledge Technologies for the Social Sciences (KTS) at GESIS. His research focuses on the area of knowledge graphs and knowledge representation. He is a principal investigator of KGI4NFDI.
