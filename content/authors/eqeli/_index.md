@@ -15,51 +15,52 @@ role: Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'FIZ Karlsruhe – Leibniz Institute for Information Infrastructure'
-    url: ''
+  - name: "University of Mannheim"
+    url: "https://www.uni-mannheim.de/"
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: 
+bio: Erblina Qeli is a Master's student in Data Science at the University of Mannheim and a Student Research Assistant specializing in Knowledge Graphs at KGI4NFDI.
 
 interests:
-  - 
+  - Knowledge Graphs
+  - Semantic Web
+  - NLP
+  - LLMs
+  - Recommender Systems
 
 education:
   courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+    - course: MSc
+      institution: University of Mannheim
+      year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: orcid
-    icon_pack: ai
-    link: #
-#  - icon: ror
-#    icon_pack: ai
-#    link:
-#  - icon: github
-#    icon_pack: fab
-#    link: #
-#    
-#  - icon: linkedin
-#    icon_pack: fab
-#    link: #
-#    
+  # - icon: orcid
+  #   icon_pack: ai
+  #   link: #
+  #  - icon: ror
+  #    icon_pack: ai
+  #    link:
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/erblinaqeli
+  #
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/erblina-qeli-910354257/
+#
 #  - icon: mastodon
 #    icon_pack: fab
 #    link: #
-#    
+#
 #  - icon: google-scholar
 #    icon_pack: ai
 #    link: #
-#    
+#
 #  - icon: researchgate
 #    icon_pack: ai
 #    link: #
@@ -70,7 +71,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: "erblina.qeli@students.uni-mannheim.de"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -81,4 +82,4 @@ user_groups:
   - Project Team Members
 ---
 
-Short bio
+Erblina Qeli is a Master's student in Data Science at the University of Mannheim and a Student Research Assistant specializing in Knowledge Graphs at KGI4NFDI.
