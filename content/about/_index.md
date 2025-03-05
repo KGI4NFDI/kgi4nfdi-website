@@ -11,7 +11,7 @@ sections:
       text: |
         **Knowledge Graphs (KGs)** are data management technologies consisting of terminologies (vocabularies and ontologies) along with interconnected data entities, based on semantic web standards like RDF and SPARQL. KGs are powerful tools for the application of the FAIR data principles in and across research domains, thereby supporting the mission of the **National Research Data Infrastructure [NFDI](https://www.nfdi.de/?lang=en)** in Germany. The NFDI Association includes subject-specific consortia, responsible for delivering research data resources and services to their respective communities. Additionally, the **[Base4NFDI](https://base4nfdi.de/)** consortium provides services deemed to be broadly applicable to all domains.
         
-        The **Knowledge Graph Infrastructure (KGI4NFDI)** is a basic service part of the Base4NFDI program. It provides guidance, documentation and software for creating and reusing KGs, alongside a registry of all KGs in use by NFDI consortia. This integrated approach seeks to enhance data integration and foster standardized ontological practices. It supports the FAIRification of data across disciplines and complements international KG initiatives, such as those promoted by the European Open Science Cloud (EOSC).
+        The **Knowledge Graph Infrastructure (KGI4NFDI)** is a basic service, part of the Base4NFDI program. It provides guidance, documentation and software for creating and reusing KGs, alongside a registry of all KGs in use by NFDI consortia. This approach seeks to enhance data integration and foster standardized terminology practices. It supports the FAIRification of data across disciplines, and complements or aligns with international KG initiatives, such as those promoted by the European Open Science Cloud (EOSC).
         
         KGI4NFDI is aimed at the entire NFDI research community, including researchers, consortia, and institutions.
 
@@ -39,7 +39,7 @@ sections:
       text: |
         KGI4NFDI delivers:
 
-        - **Service Hub**: A central registry, itself a KG, for accessing, searching, and querying the knowledge graphs used by NFDI consortia.
+        - **Service Hub**: A central registry, itself a KG, for regisering, searching, and querying the knowledge graphs used by NFDI consortia.
         - **Community Support**: Tailored consulting, comprehensive documentation, and shared best practices for knowledge graph development and use.
         - **Interoperability**: Strategies to harmonize data standards, ensuring compatibility across disciplines and integration with global initiatives like the European Open Science Cloud (EOSC).
 
