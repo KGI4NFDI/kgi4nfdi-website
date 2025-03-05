@@ -27,14 +27,14 @@ interests:
   - Knowledge Graphs
   - Open Science
 
-education:
-  courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+#education:
+#  courses:
+#    - course: tba
+#      institution: tba
+#      year: 2000
+#    - course: tba
+#      institution: tba
+#      year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -43,10 +43,32 @@ education:
 social:
   - icon: ror
     icon_pack: ai
-    link: https://ror.org/05gq02987
+    link: https://ror.org/0259fwx54
+    
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0002-1481-2996
+  
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/konrad
+    
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/foerstner
+    
+  - icon: mastodon
+    icon_pack: fab
+    link: https://mastodon.social/@kuf
+    
+  - icon: google-scholar
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=n-GoW_IAAAAJ
+    
+  - icon: researchgate
+    icon_pack: ai
+    link: https://www.researchgate.net/profile/Konrad-Foerstner
+    
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

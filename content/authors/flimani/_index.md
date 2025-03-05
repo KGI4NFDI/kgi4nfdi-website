@@ -15,37 +15,40 @@ role: Principal investigator # or Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'Brown University: Providence, RI, US'
-    url: 'http://www.brown.edu/'
+  - name: 'ZBW – Leibniz Information Centre for Economics, Kiel'
+    url: 'https://www.zbw.eu/de/ueber-zbw/profil/mitarbeiterprofile/profil-fidan-limani'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
+bio: Fidan Limani has been engaged with (national) research data infrastructure projects since 2017. This includes research data management aspects and services implementation for
+      different research communities, such as [KonsortSWD](https://www.konsortswd.de/) or [NFDI4DataScience](https://www.nfdi4datascience.de/). Another part of his research
+      includes the adoption of Knowledge Graphs as integration means for the scholarly research deliverables iof library environments.
 
 interests:
-  - Psychoceramics
-  - Cracked pots
-  - Amphibious epistemologies
+  - Knowledge Graph 
+  - Graph Databases & Representation (Labeled Property Graphs, RDF-based, etc.)
+  - Semantic Web / Linked Data
 
-education:
-  courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+#education:
+#  courses:
+#    - course: tba
+#      institution: tba
+#      year: 2000
+#    - course: tba
+#      institution: tba
+#      year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: ror
-    icon_pack: ai
-    link: https://ror.org/05gq02987
+  #- icon: ror
+  #  icon_pack: ai
+  #  link: 
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/0000-0002-1825-0097
+    link: https://orcid.org/0000-0002-5835-2784
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -53,7 +56,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'flimani@zbw-workspace.eu'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -63,5 +66,4 @@ highlight_name: true
 user_groups:
   - Principal Investigators # or Project Team Members
 ---
-
-Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
+Fidan Limani has been engaged with (national) research data infrastructure projects since 2017. This includes research data management aspects and services implementation for different research communities, such as [KonsortSWD](https://www.konsortswd.de/) or [NFDI4DataScience](https://www.nfdi4datascience.de/). Another part of his research includes the adoption of Knowledge Graphs as integration means for the scholarly research deliverables iof library environments.

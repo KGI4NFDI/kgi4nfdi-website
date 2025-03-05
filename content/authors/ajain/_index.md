@@ -1,47 +1,49 @@
 ---
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Benjamin Zapilko
+title: Abhinandan Jain
 
 # Full Name (for SEO)
-first_name: Benjamin
-last_name: Zapilko
+first_name: Abhinandan
+last_name: Jain
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Principal investigator
+role: Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: GESIS - Leibniz Institute for the Social Sciences
-    url: 'http://www.gesis.org/'
+  - name: 'FIZ Karlsruhe – Leibniz Institute for Information Infrastructure'
+    url: ''
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Benjamin Zapilko is a postdoctoral researcher in the team Information Extraction & Linking at the GESIS department Knowledge Technologies for the Social Sciences (KTS) at GESIS. His research focuses on the area of knowledge graphs and knowledge representation. He is a principal investigator of KGI4NFDI.
+bio: 
 
 interests:
-  - Knowledge Graphs
-  - Knowledge Engineering
-  - Metadata Standards
+  - 
 
 education:
   courses:
-    - course: PhD
-      institution: University of Mannheim
-      year: 2015
-
+    - course: tba
+      institution: tba
+      year: 2000
+    - course: tba
+      institution: tba
+      year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: ror
+    icon_pack: ai
+    link: 
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/0000-0001-9495-040X
-
+    link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -49,7 +51,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'benjamin.zapilko@gesis.org'
+email: ''
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -57,7 +59,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators
+  - Project Team Members
 ---
 
-Benjamin Zapilko is a postdoctoral researcher in the team Information Extraction & Linking at the GESIS department Knowledge Technologies for the Social Sciences (KTS) at GESIS. His research focuses on the area of knowledge graphs and knowledge representation. He is a principal investigator of KGI4NFDI.
+Short bio
