@@ -19,7 +19,7 @@ organizations:
     url: 'http://www.tib.eu/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Dr Lozana Rossenova is Product Manager and Service Designer for Wikibase Service at the Open Science Lab at TIB. She leads on delivering Wikibase-connected services and consulting for NFDI4Culture and KGI4NFDI. 
+bio: Dr. Lozana Rossenova is Product Manager and Service Designer for Wikibase Service at the Open Science Lab at TIB. She leads on delivering Wikibase-connected services and consulting for NFDI4Culture and KGI4NFDI. 
 
 interests:
   - Collaborative Knowledge Graphs
@@ -46,6 +46,29 @@ social:
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0002-5190-1867
+  
+#  - icon: ror
+#    icon_pack: ai
+#    link:
+#  - icon: github
+#    icon_pack: fab
+#    link: #
+#    
+#  - icon: linkedin
+#    icon_pack: fab
+#    link: #
+#    
+#  - icon: mastodon
+#    icon_pack: fab
+#    link: #
+#    
+#  - icon: google-scholar
+#    icon_pack: ai
+#    link: #
+#    
+#  - icon: researchgate
+#    icon_pack: ai
+#    link: #
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -64,4 +87,4 @@ user_groups:
   - Principal Investigators # or Project Team Members
 ---
 
-Dr Lozana Rossenova is Product Manager and Service Designer for Wikibase Service at the Open Science Lab at TIB. She leads on delivering Wikibase-connected services and consulting for NFDI4Culture and KGI4NFDI. 
+Dr. Lozana Rossenova is Product Manager and Service Designer for Wikibase Service at the Open Science Lab at TIB. She leads on delivering Wikibase-connected services and consulting for NFDI4Culture and KGI4NFDI. 
