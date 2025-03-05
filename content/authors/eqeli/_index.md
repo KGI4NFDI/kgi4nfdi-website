@@ -1,30 +1,28 @@
 ---
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Thomas Bauer
+title: Erblina Qeli
 
 # Full Name (for SEO)
-first_name: Thomas
-last_name: Bauer
+first_name: Erblina
+last_name: Qeli
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Principal investigator # or Project Team Members
+role: Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'Brown University: Providence, RI, US'
-    url: 'http://www.brown.edu/'
+  - name: 'FIZ Karlsruhe – Leibniz Institute for Information Infrastructure'
+    url: ''
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
+bio: 
 
 interests:
-  - Psychoceramics
-  - Cracked pots
-  - Amphibious epistemologies
+  - 
 
 education:
   courses:
@@ -42,10 +40,10 @@ education:
 social:
   - icon: ror
     icon_pack: ai
-    link: https://ror.org/05gq02987
+    link: 
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/0000-0002-1825-0097
+    link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -61,7 +59,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Principal Investigators # or Project Team Members
+  - Project Team Members
 ---
 
-Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
+Short bio

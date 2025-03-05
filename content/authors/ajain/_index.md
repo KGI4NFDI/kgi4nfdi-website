@@ -1,11 +1,11 @@
 ---
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Daniel Mietchen
+title: Abhinandan Jain
 
 # Full Name (for SEO)
-first_name: Daniel
-last_name: Mietchen
+first_name: Abhinandan
+last_name: Jain
 
 # Is this the primary user of the site?
 superuser: false
