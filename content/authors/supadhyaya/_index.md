@@ -15,23 +15,22 @@ role: Project Team Members # or Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'ZB MED – Information Centre for Life Sciences'
-    url: ''
+  - name: GESIS - Leibniz Institute for the Social Sciences
+    url: 'http://www.gesis.org/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: 
+bio: Sharmila Upadhyaya is a doctoral student at GESIS – Leibniz Institute for the Social Sciences since November 2022. In October 2022, she completed her Erasmus Mundus Language and Communication Technology (LCT) Master’s degree at the University of Lorraine, France and Saarland University, Germany, with a specialization in Computational Linguistics. Before that, she was working as a NLP Engineer at Ekbana Solutions in Nepal for 2 years.
 
 interests:
-  - 
+  - Knowledge Graphs
+  - Information Extraction
 
 education:
   courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+    - course: European Masters Program - Language & Communication Technologies
+      institution: Saarland University, Germany & University of Lorraine, France
+      year: 2022
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -40,7 +39,7 @@ education:
 social:
   - icon: orcid
     icon_pack: ai
-    link: 
+    link: https://orcid.org/0009-0003-7142-3887
 #  - icon: ror
 #    icon_pack: ai
 #    link:
@@ -70,7 +69,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'sharmila.upadhyaya@gesis.org'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -81,4 +80,5 @@ user_groups:
   - Project Team Members
 ---
 
-Short bio
+Sharmila Upadhyaya is a doctoral student at GESIS – Leibniz Institute for the Social Sciences since November 2022. In October 2022, she completed her Erasmus Mundus Language and Communication Technology (LCT) Master’s degree at the University of Lorraine, France and Saarland University, Germany, with a specialization in Computational Linguistics. Before that, she was working as a NLP Engineer at Ekbana Solutions in Nepal for 2 years.
+
