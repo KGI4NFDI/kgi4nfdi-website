@@ -1,0 +1,10 @@
+# Counting the number of distinct types in the graph
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT DISTINCT ?type (COUNT(*) as ?number_of_types)
+WHERE {
+  ?subject rdf:type ?type
+}
+# Results are grouped and presented in descending order
+GROUP BY ?type
+ORDER BY DESC(?number_of_types)
