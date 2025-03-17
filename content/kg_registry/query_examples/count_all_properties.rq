@@ -1,0 +1,8 @@
+# Count the number of distinct properties in the graph
+SELECT DISTINCT ?property (COUNT(*) as ?number_of_properties)
+WHERE {
+  ?subject ?property ?object
+}
+# Results are grouped and presented in descending order
+GROUP BY ?property
+ORDER BY DESC(?number_of_properties)
