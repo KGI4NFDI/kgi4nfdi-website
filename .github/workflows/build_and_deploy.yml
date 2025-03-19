@@ -20,7 +20,7 @@ jobs:
 
       - name: Install Hugo
         run: |
-          HUGO_VERSION=0.140.2  # Update if needed
+          HUGO_VERSION=0.145.0  # Update if needed
           wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
           tar -xvzf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
           sudo mv hugo /usr/local/bin/hugo
