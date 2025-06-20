@@ -1,0 +1,6 @@
+# List all distinct properties in the graph
+
+SELECT DISTINCT ?property
+WHERE {
+  ?subject ?property ?object
+}

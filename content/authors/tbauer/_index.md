@@ -2,11 +2,11 @@
 draft: true
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Till Sauerwein
+title: Thomas Bauer
 
 # Full Name (for SEO)
-first_name: Till
-last_name: Sauerwein
+first_name: Thomas
+last_name: Bauer
 
 # Is this the primary user of the site?
 superuser: false

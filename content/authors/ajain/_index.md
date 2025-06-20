@@ -11,46 +11,48 @@ last_name: Jain
 superuser: false
 
 # Role/position
-role: Project Team Members
+role: Knowledge Graph Consultant
 
 # Organizations/Affiliations
 organizations:
-  - name: 'FIZ Karlsruhe – Leibniz Institute for Information Infrastructure'
-    url: ''
-
+  - name: "University of Mannheim"
+    url: "https://www.uni-mannheim.de/"
+  
+  - name: "XL2 by Audi & Capgemini"
+    url: "https://www.uni-mannheim.de/"
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: 
+bio: Abhinandan Jain is Knowledge Graph Consultant at the Research Data Center of Mannheim University Library. Additionally, he is also associated with XL2 by Audi & Capgemini as Jr. Data Scientist. 
 
 interests:
-  - 
+  - Knowledge Graphs
+  - LLMs
+  - Computer Vision
+  - Big Data 
 
 education:
   courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+    - course: Masters in Commercial Vehicle Technology
+      institution: University of Kaiserlautern
+      year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: orcid
-    icon_pack: ai
-    link: #
+#   - icon: orcid
+#    icon_pack: ai
+#    link: #
 #  - icon: ror
 #    icon_pack: ai
 #    link:
-#  - icon: github
-#    icon_pack: fab
-#    link: #
-#    
-#  - icon: linkedin
-#    icon_pack: fab
-#    link: #
+ - icon: github
+   icon_pack: fab
+   link: https://github.com/Abhinandan707
+   
+ - icon: linkedin
+   icon_pack: fab
+   link: https://www.linkedin.com/in/akj7/
 #    
 #  - icon: mastodon
 #    icon_pack: fab
@@ -70,7 +72,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: 'abhinandan.kailaschand.jain@uni-mannheim.de'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true

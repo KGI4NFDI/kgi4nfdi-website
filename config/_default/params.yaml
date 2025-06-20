@@ -48,7 +48,7 @@ header:
 footer:
   about: '<b>KGI4NFDI</b><br>
     <a href="/about">About the KGI service</a><br>
-    <!--<a href="/team">Meet the team</a><br>-->
+    <a href="/team">Meet the team</a><br>
     Contact: <a href="mailto:kgi4nfdi@lists.nfdi.de">kgi4nfdi@lists.nfdi.de</a><br>'
 
   mission: '<b>Base4NFDI</b><br>
@@ -57,7 +57,7 @@ footer:
         [Our Mission Statement](https://base4nfdi.de/about/mission-statement)<br>
         '
   dfg: ' KGI4NFDI is funded as part of [Base4NFDI](https://base4nfdi.de).<br>
-        Grant number: 521466146.
+        Grant number: 521453681 (TUD/NFDI4Earth).
         '
   copyright:
     notice: '<b>Legal</b><br>
