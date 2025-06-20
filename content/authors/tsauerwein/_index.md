@@ -1,4 +1,5 @@
 ---
+draft: true
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
 title: Till Sauerwein
@@ -79,6 +80,7 @@ highlight_name: true
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Project Team Members
+
 ---
 
 Short bio
