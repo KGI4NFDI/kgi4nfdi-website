@@ -12,27 +12,32 @@ last_name: Bauer
 superuser: false
 
 # Role/position
-role: Project Team Members # or Project Team Members
+role: Service Steward # or Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'ZB MED – Information Centre for Life Sciences'
-    url: ''
+  - name: 'DNB - Deutsche Nationalbibliothek'
+    url: 'https://www.dnb.de'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
 bio: 
 
 interests:
-  - 
+  - Academic Software Development
+  - Data Science
+  - Knowledge Graphs
+  - Semantic Web
+  - BPMN
+  - Research Data Infrastructures
 
-education:
-  courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+# education:
+#  courses:
+#    - course: tba
+#      institution: tba
+#      year: 2000
+#    - course: tba
+#      institution: tba
+#      year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -41,7 +46,7 @@ education:
 social:
   - icon: orcid
     icon_pack: ai
-    link: 
+    link: https://orcid.org/0000-0003-0496-1223
 #  - icon: ror
 #    icon_pack: ai
 #    link:
@@ -71,16 +76,16 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+# email: ''
 
 # Highlight the author in author lists? (true/false)
-highlight_name: true
+highlight_name: false
 
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-  - Project Team Members
+# user_groups:
+#  - Project Team Members
 
 ---
 
-Short bio
+Thomas Bauer is a Data Scientist in the Office for Library Standard at the German National Library (DNB).
