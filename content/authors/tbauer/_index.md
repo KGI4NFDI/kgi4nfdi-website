@@ -20,7 +20,7 @@ organizations:
     url: 'https://www.dnb.de'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: 
+bio: Thomas Bauer is a Data Scientist in the Office for Library Standard at the German National Library (DNB).
 
 interests:
   - Academic Software Development
