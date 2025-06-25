@@ -17,13 +17,15 @@ role: Project Team Members # or Project Team Members
 # Organizations/Affiliations
 organizations:
   - name: 'ZB MED – Information Centre for Life Sciences'
-    url: ''
+    url: 'https://www.zbmed.de/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: 
+bio: Till Sauerwein is a research assistant at ZB MED Information Centre for Life Sciences where he is engaged in omics research with a focus on RNA-seq and scientific software development. He serves as the project manager for the KGI4NFDI base service.
 
 interests:
-  - 
+  - Bioinformatics
+  - Microbiology
+  - Scientific software development
 
 education:
   courses:
@@ -41,7 +43,7 @@ education:
 social:
   - icon: orcid
     icon_pack: ai
-    link: 
+    link: https://orcid.org/0000-0001-5830-4208
 #  - icon: ror
 #    icon_pack: ai
 #    link:
