@@ -1,5 +1,4 @@
 ---
-draft: true
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
 title: Thomas Bauer
@@ -43,10 +42,16 @@ interests:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
+
 social:
+  - icon: ror
+    icon_pack: ai
+    link: https://ror.org/01n7gem85
+    
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0003-0496-1223
+
 #  - icon: ror
 #    icon_pack: ai
 #    link:
@@ -79,13 +84,12 @@ social:
 # email: ''
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
-# user_groups:
-#  - Project Team Members
+user_groups:
+  - Project Team Members
 
 ---
-
 Thomas Bauer is a Data Scientist in the Office for Library Standard at the German National Library (DNB).

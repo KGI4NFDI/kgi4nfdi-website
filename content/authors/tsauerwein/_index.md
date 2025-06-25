@@ -1,5 +1,4 @@
 ---
-draft: true
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
 title: Till Sauerwein
@@ -27,20 +26,24 @@ interests:
   - Microbiology
   - Scientific software development
 
-education:
-  courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+#education:
+#  courses:
+#    - course: tba
+#      institution: tba
+#      year: 2000
+#    - course: tba
+#      institution: tba
+#      year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: ror
+    icon_pack: ai
+    link: https://ror.org/0259fwx54
+    
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0001-5830-4208
