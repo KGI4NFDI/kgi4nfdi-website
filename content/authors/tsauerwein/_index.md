@@ -1,5 +1,4 @@
 ---
-draft: true
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
 title: Till Sauerwein
@@ -17,31 +16,37 @@ role: Project Team Members # or Project Team Members
 # Organizations/Affiliations
 organizations:
   - name: 'ZB MED – Information Centre for Life Sciences'
-    url: ''
+    url: 'https://www.zbmed.de/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: 
+bio: Till Sauerwein is a research assistant at ZB MED Information Centre for Life Sciences where he is engaged in omics research with a focus on RNA-seq and scientific software development. He serves as the project manager for the KGI4NFDI base service.
 
 interests:
-  - 
+  - Bioinformatics
+  - Microbiology
+  - Scientific software development
 
-education:
-  courses:
-    - course: tba
-      institution: tba
-      year: 2000
-    - course: tba
-      institution: tba
-      year: 2000
+#education:
+#  courses:
+#    - course: tba
+#      institution: tba
+#      year: 2000
+#    - course: tba
+#      institution: tba
+#      year: 2000
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: ror
+    icon_pack: ai
+    link: https://ror.org/0259fwx54
+    
   - icon: orcid
     icon_pack: ai
-    link: 
+    link: https://orcid.org/0000-0001-5830-4208
 #  - icon: ror
 #    icon_pack: ai
 #    link:
@@ -83,4 +88,4 @@ user_groups:
 
 ---
 
-Short bio
+Till Sauerwein is a research assistant at ZB MED Information Centre for Life Sciences where he is engaged in omics research with a focus on RNA-seq and scientific software development. He serves as the project manager for the KGI4NFDI base service.
