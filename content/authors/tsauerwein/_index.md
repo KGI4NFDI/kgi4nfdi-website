@@ -88,4 +88,4 @@ user_groups:
 
 ---
 
-Short bio
+Till Sauerwein is a research assistant at ZB MED Information Centre for Life Sciences where he is engaged in omics research with a focus on RNA-seq and scientific software development. He serves as the project manager for the KGI4NFDI base service.
