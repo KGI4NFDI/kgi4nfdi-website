@@ -14,7 +14,7 @@ sections:
         - Send your consultancy requests via email to our mailing list: kgi4nfdi@lists.nfdi.de
         - Join our monthly KGI4NFDI Consultancy Hour for direct discussions and expert guidance.
         #### Consultancy Hour Schedule:
-        - ! Note that the regular Consultancy Hour schedule is on pause from **July 2025** until **January 2026**. We hope to resume the sessions if the KGI service is approved for continued Integration Phase funding. 
+        - Note that the regular Consultancy Hour schedule is on pause from **July 2025** until **January 2026**. We hope to resume the sessions if the KGI service is approved for continued Integration Phase funding. 
         - :calendar: Every 3rd Wednesday of the month from **15:00** to **16:00**.
         
           To join, use this [:link: Zoom Meeting](https://uni-mannheim.zoom-x.de/j/62449660255?pwd=6qSJqyFH9RTquIxXcoKJCf0RVZbYdJ.1), or use the following details:
