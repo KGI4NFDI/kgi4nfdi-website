@@ -18,6 +18,15 @@ sections:
       # TODO here also other services could be linked which you provide, e.g. a hub or the documentation
   
 
+  - block: markdown
+    content:
+      title: Interoperability of Knowledge Graphs
+      subtitle: 
+      text: | 
+        Interoperability is crucial in the context of Knowledge graphs because it enables seamless data integration, exchange, and reuse across different systems, domains, and organizations. By adhering to established standards, such as those for representation (RDF, Labelled Property Graphs, etc.), or querying (SPARQL, Graph Query Language, etc.), interoperable KGs ensure that diverse datasets can be linked and understood in a unified way, reducing data silos, and enhancing discoverability. In the following report, we provide an overview and best practices on such standards and practices by focusing on metadata mapping, linking, and integration: [https://zenodo.org/records/15780729](https://zenodo.org/records/15780729)
+    design:
+      columns: '1'
+
 
 #  - block: markdown
 #    content:
