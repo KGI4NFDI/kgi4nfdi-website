@@ -79,7 +79,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Team Members
+  - Former Members
 ---
 
 Erblina Qeli is a Master's student in Data Science at the University of Mannheim and a Student Research Assistant specializing in Knowledge Graphs at KGI4NFDI.
