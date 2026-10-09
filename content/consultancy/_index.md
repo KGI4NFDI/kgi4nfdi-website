@@ -16,7 +16,7 @@ sections:
         #### Consultancy Hour Schedule:
          
         - :calendar: Every 3rd Wednesday of the month from **15:00** to **16:00**.
-        - The next sessions will take place on 20.05.2026, 24.06.2026, and 22.07.2026.
+        - The next consultancy sessions will take place 21.10.2026, 18.11.2026 and 16.12.2026.
         
           To join, use this [:link: Zoom Meeting](https://uni-mannheim.zoom-x.de/j/62449660255?pwd=6qSJqyFH9RTquIxXcoKJCf0RVZbYdJ.1), or use the following details:
             - :pushpin: Meeting ID: ```624 4966 0255```
