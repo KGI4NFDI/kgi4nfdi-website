@@ -1,0 +1,76 @@
+# Consortium logos, keyed by id. Set `consortium: <id>` in an integration page's front matter.
+berdnfdi:
+  file: images/consortia/berdnfdi.png
+  alt: BERD@NFDI
+daphne4nfdi:
+  file: images/consortia/daphne4nfdi.png
+  alt: DAPHNE4NFDI
+dataplant:
+  file: images/consortia/dataplant.svg
+  alt: DataPLANT
+fairagro:
+  file: images/consortia/fairagro.png
+  alt: FAIRagro
+fairmat:
+  file: images/consortia/fairmat.png
+  alt: FAIRmat
+ghga:
+  file: images/consortia/ghga.png
+  alt: GHGA
+mardi:
+  file: images/consortia/mardi.png
+  alt: MaRDI
+nfdimatwerk:
+  file: images/consortia/nfdimatwerk.png
+  alt: NFDI-MatWerk
+nfdi4biodiversity:
+  file: images/consortia/nfdi4biodiversity.png
+  alt: NFDI4Biodiversity
+nfdi4bioimage:
+  file: images/consortia/nfdi4bioimage.png
+  alt: NFDI4BIOIMAGE
+nfdi4cat:
+  file: images/consortia/nfdi4cat.svg
+  alt: NFDI4Cat
+nfdi4chem:
+  file: images/consortia/nfdi4chem.png
+  alt: NFDI4Chem
+nfdi4culture:
+  file: images/consortia/nfdi4culture.png
+  alt: NFDI4Culture
+nfdi4datascience:
+  file: images/consortia/nfdi4datascience.png
+  alt: NFDI4DataScience
+nfdi4earth:
+  file: images/consortia/nfdi4earth.png
+  alt: NFDI4Earth
+nfdi4energy:
+  file: images/consortia/nfdi4energy.png
+  alt: NFDI4Energy
+nfdi4health:
+  file: images/consortia/nfdi4health.png
+  alt: NFDI4Health
+nfdi4immuno:
+  file: images/consortia/nfdi4immuno.png
+  alt: NFDI4Immuno
+nfdi4ing:
+  file: images/consortia/nfdi4ing.svg
+  alt: NFDI4Ing
+nfdi4memory:
+  file: images/consortia/nfdi4memory.svg
+  alt: NFDI4Memory
+nfdi4microbiota:
+  file: images/consortia/nfdi4microbiota.png
+  alt: NFDI4Microbiota
+nfdi4objects:
+  file: images/consortia/nfdi4objects.png
+  alt: NFDI4Objects
+nfdixcs:
+  file: images/consortia/nfdixcs.png
+  alt: NFDIxCS
+punch4nfdi:
+  file: images/consortia/punch4nfdi.jpg
+  alt: PUNCH4NFDI
+textplus:
+  file: images/consortia/textplus.png
+  alt: Text+
