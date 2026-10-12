@@ -80,7 +80,7 @@ highlight_name: true
 # Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Project Team Members
+  - Former Members
 ---
 
 Short bio
