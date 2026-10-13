@@ -20,6 +20,10 @@ main:
     url: showcases
     weight: 40
 
+  - name: Incubators
+    url: incubators
+    weight: 45
+
   - name: KG Guidelines
     #url: kg_guidelines
     url: https://kgi4nfdi.github.io/Guidelines/
