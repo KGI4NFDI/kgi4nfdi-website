@@ -27,6 +27,17 @@ jobs:
           rm -f hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz  # Cleanup tarball
           hugo version
 
+      # Hugo >= 0.170 needs an external Dart Sass binary for toCSS
+      - name: Install Dart Sass
+        run: |
+          SASS_VERSION=1.108.2  # Update if needed
+          wget -q https://github.com/sass/dart-sass/releases/download/${SASS_VERSION}/dart-sass-${SASS_VERSION}-linux-x64.tar.gz
+          tar -xzf dart-sass-${SASS_VERSION}-linux-x64.tar.gz
+          sudo rm -rf /usr/local/dart-sass && sudo mv dart-sass /usr/local/dart-sass
+          sudo ln -sf /usr/local/dart-sass/sass /usr/local/bin/sass
+          rm -f dart-sass-${SASS_VERSION}-linux-x64.tar.gz
+          sass --version
+
       - name: Set Base URL
         run: |
           if [ "${{ github.ref }}" == "refs/heads/main" ]; then
