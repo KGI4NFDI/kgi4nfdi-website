@@ -29,6 +29,10 @@ main:
     url: https://kgi4nfdi.github.io/Guidelines/
     weight: 50
 
+  - name: Team
+    url: team
+    weight: 55
+
   - name: Github
     url: https://github.com/KGI4NFDI
     weight: 60
