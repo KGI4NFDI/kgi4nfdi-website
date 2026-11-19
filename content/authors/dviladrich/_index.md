@@ -14,18 +14,14 @@ role: Project Team Members
 
 # Organizations/Affiliations
 organizations:
-  - name: 'Zuse Institute Berlin'
-    url: 'https://www.zib.de/'
+  - name: 'FIZ Karlsruhe'
+    url: 'https://fiz-karlsruhe.de'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: ''
+bio: Daniel Viladrich Herrmannsdoerfer is a Junior Data Architect at KGI4NFDI. He monitors the Knowledge Graph Registry and works to make NFDI knowledge graphs more interoperable and easier to query together through federation.
 
 # Social/Academic Networking
 social:
-  - icon: ror
-    icon_pack: ai
-    link: https://ror.org/02eva5865
-
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0009-0006-6861-6495
@@ -40,3 +36,5 @@ highlight_name: true
 user_groups:
   - Project Team Members
 ---
+
+Daniel Viladrich Herrmannsdoerfer is a Junior Data Architect at KGI4NFDI. He monitors the Knowledge Graph Registry and works to make NFDI knowledge graphs more interoperable and easier to query together through federation.
