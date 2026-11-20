@@ -1,0 +1,37 @@
+{{/* Adapted from base4nfdi/website-template-hugo: Matomo only loads after the visitor accepts. */}}
+{{ if site.Params.features.privacy_pack.enable }}
+  <script>
+    (function () {
+      function loadMatomo() {
+        var s = document.createElement('script');
+        s.src = '{{ "js/matomo.js" | relURL }}';
+        document.head.appendChild(s);
+      }
+      var consent = null;
+      try { consent = localStorage.getItem('cookieConsent'); } catch (e) {}
+      if (consent === 'accepted') { loadMatomo(); return; }
+      if (consent === 'denied') { return; }
+
+      function choose(value, banner) {
+        try { localStorage.setItem('cookieConsent', value); } catch (e) {}
+        banner.style.display = 'none';
+        if (value === 'accepted') { loadMatomo(); }
+      }
+      // This partial renders inside <head>, so the banner is built once <body> exists.
+      document.addEventListener('DOMContentLoaded', function () {
+        var banner = document.createElement('div');
+        banner.id = 'cookie-consent-banner';
+        banner.className = 'banner';
+        banner.setAttribute('role', 'region');
+        banner.setAttribute('aria-label', 'Cookie consent');
+        banner.innerHTML = 'We use cookies to improve your experience. <a href="https://www.zbmed.de/en/privacy-policy">Learn more</a>. '
+          + '<button id="cookie-consent-accept" class="btn btn-primary">Accept</button> '
+          + '<button id="cookie-consent-deny" class="btn btn-primary">Deny</button>';
+        document.body.appendChild(banner);
+        banner.style.display = 'block';
+        document.getElementById('cookie-consent-accept').addEventListener('click', function () { choose('accepted', banner); });
+        document.getElementById('cookie-consent-deny').addEventListener('click', function () { choose('denied', banner); });
+      });
+    })();
+  </script>
+{{ end }}

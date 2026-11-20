@@ -1,0 +1,18 @@
+{{/*
+  Logo of the consortium named by the page's `consortium` front matter (an id in data/consortia_logos.yaml).
+  Pass the integration page as context. Renders nothing when no consortium is set.
+*/}}
+{{ with index hugo.Data.consortia_logos (.Params.consortium | default "") }}
+  <figure class="integrations-single-logo">
+    <img
+      class="integrations-single-logo-img"
+      src="{{ .file | relURL }}"
+      alt="{{ .alt }}"
+      title="{{ .alt }}"
+      width="101"
+      height="64"
+      loading="lazy"
+      decoding="async"
+    >
+  </figure>
+{{ end }}

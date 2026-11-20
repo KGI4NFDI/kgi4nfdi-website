@@ -13,6 +13,7 @@ sections:
       user_groups:
         - Principal Investigators
         - Project Team Members
+        - Former Members
       sort_by: Params.last_name
       sort_ascending: true
     design:

@@ -92,7 +92,7 @@ features:
   math:
     enable: true
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/KGI4NFDI/kgi4nfdi-website'
     content_dir: content
