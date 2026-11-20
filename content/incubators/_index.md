@@ -6,7 +6,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: Incubators
+      title: Incubators Calls
       subtitle: 1<sup>st</sup> Call for Incubator Projects
       text: |
         Have you been wanting to apply Knowledge Graphs for use cases in your domain? Do you need support in such a process? The good news is that the KGI4NFDI project provides incubators, which are designed to facilitate Knowledge Graph implementation work via a structured process. Bring your use cases and some enthusiasm along the way and join us in this interesting process!
