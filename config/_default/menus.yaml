@@ -8,10 +8,6 @@ main:
     url: kg_registry
     weight: 10
 
-  - name: KG Monitor
-    url: https://kgi-monitor.portal.mardi4nfdi.de
-    weight: 15
-
   - name: Contribute
     url: contribute
     weight: 20
