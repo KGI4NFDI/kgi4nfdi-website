@@ -34,7 +34,7 @@ dropdown_items:
 ---
 
 
-The [KG Monitor](https://kgi-monitor.portal.mardi4nfdi.de) shows the registry metadata of the knowledge graphs in this registry and the state of their SPARQL endpoints.
+The [KG Monitor](https://monitor.dev.kgi.services.base4nfdi.de/) shows the registry metadata of the knowledge graphs in this registry and the state of their SPARQL endpoints.
 
 {{< query_control >}}
 
