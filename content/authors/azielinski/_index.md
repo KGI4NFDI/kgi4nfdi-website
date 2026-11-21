@@ -18,7 +18,19 @@ organizations:
     url: 'https://www.uni-mannheim.de/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: ''
+bio: 'Andrea Zielinski is a Knowledge Graph consultant and postdoctoral researcher at the University of Mannheim. As a member of the KGI4NFDI initiative and the Research Data Center of the Mannheim University Library, she supports NFDI consortia in the adoption and application of Knowledge Graph technologies. Her research interests focus on knowledge integration as well as the interaction between Large Language Models (LLMs) and Knowledge Graphs.'
+
+# Research interests
+interests:
+  - Knowledge Graphs & Semantic Web
+  - Research Data Management
+  - AI-ready Research Infrastructures
+
+# Education
+education:
+  courses:
+    - course: Dr. phil. in Computational Linguistics
+      institution: Saarland University
 
 # Social/Academic Networking
 social:
@@ -40,3 +52,4 @@ highlight_name: true
 user_groups:
   - Project Team Members
 ---
+'Andrea Zielinski is a Knowledge Graph consultant and postdoctoral researcher at the University of Mannheim. As a member of the KGI4NFDI initiative and the Research Data Center of the Mannheim University Library, she supports NFDI consortia in the adoption and application of Knowledge Graph technologies. Her research interests focus on knowledge integration as well as the interaction between Large Language Models (LLMs) and Knowledge Graphs.'
