@@ -2,39 +2,71 @@
 # Display name
 title: Daniel Viladrich Herrmannsdoerfer
 
-# Full Name (for SEO)
+# Full name (for SEO and sorting on the Team page)
 first_name: Daniel
 last_name: Viladrich Herrmannsdoerfer
 
-# Is this the primary user of the site?
+# Leave false: only the site owner is the superuser
 superuser: false
 
-# Role/position
-role: Project Team Members
+# Your job title, shown under your name on your profile page
+role: Junior Data Architect
 
-# Organizations/Affiliations
+# Organizations/affiliations, main one first
 organizations:
   - name: 'FIZ Karlsruhe'
-    url: 'https://fiz-karlsruhe.de'
+    url: 'https://fiz-karlsruhe.de/'
 
-# Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: Daniel Viladrich Herrmannsdoerfer is a Junior Data Architect at KGI4NFDI. He monitors the Knowledge Graph Registry and works to make NFDI knowledge graphs more interoperable and easier to query together through federation.
+# One-sentence bio, shown under posts you author. Keep it in line with the text below the front matter.
+bio: Junior Data Architect at FIZ Karlsruhe, monitoring the Knowledge Graph Registry and making NFDI knowledge graphs easier to query together through federation.
 
-# Social/Academic Networking
+# Research interests, shown on your profile page. 4–6 distinct topics read best.
+interests:
+  - Knowledge Graphs & Semantic Web
+  - SPARQL Federation & Interoperability
+  - FAIR Data & Research Infrastructure
+  - Mathematical Optimization
+  - Research Software & Open Source
+
+# Degrees, most recent first. Omit `year` for a degree in progress.
+education:
+  courses:
+    - course: M.Sc. in Technomathematics
+      institution: Technische Universität Berlin
+      year: 2024
+    - course: B.Sc. in Mathematics and Physics
+      institution: Universitat Autònoma de Barcelona
+      year: 2018
+
+# Links shown as icons. Use the full URL. Delete the ones you don't have.
+#   ror: your institution's ROR ID (look it up at https://ror.org)
+#   Available icons: https://docs.hugoblox.com/getting-started/page-builder/#icons
 social:
+  - icon: ror
+    icon_pack: ai
+    link: https://ror.org/0387prb75
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0009-0006-6861-6495
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/danielviladrich
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/daniel-viladrich-h/
 
-# Enter email to display Gravatar (if Gravatar enabled in Config)
+# Only used for Gravatar, which is disabled on this site; it is not shown publicly. Optional.
 email: ''
 
-# Highlight the author in author lists? (true/false)
+# Highlight your name in author lists
 highlight_name: true
 
-# Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
+# Team page section(s) you appear in. Use exactly one of:
+#   Principal Investigators | Project Team Members | Former Members
 user_groups:
   - Project Team Members
 ---
 
-Daniel Viladrich Herrmannsdoerfer is a Junior Data Architect at KGI4NFDI. He monitors the Knowledge Graph Registry and works to make NFDI knowledge graphs more interoperable and easier to query together through federation.
+Daniel Viladrich Herrmannsdoerfer is a Junior Data Architect at FIZ Karlsruhe, working in KGI4NFDI. He monitors the Knowledge Graph Registry and works to make NFDI knowledge graphs more interoperable and easier to query together through federation.
+
+He holds an M.Sc. in Technomathematics from Technische Universität Berlin. Before KGI4NFDI, he contributed to the FrankWolfe.jl optimization package at Zuse Institute Berlin and to GPathfinder, for protein docking, at Universitat Autònoma de Barcelona.
