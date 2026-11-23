@@ -13,10 +13,12 @@ superuser: false
 role: Project Team Members
 
 # Organizations/Affiliations
-organizations: []
+organizations:
+  - name: 'GESIS – Leibniz Institute for the Social Sciences'
+    url: 'https://www.gesis.org/'
 
 # Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
-bio: ''
+bio: 'Saranya Vanga is a Research Associate at GESIS – Leibniz Institute for the Social Sciences, contributing to Work Package 1 (Registry and Hub) of the KGI4NFDI project. Her work focuses on the development and improvement of the Knowledge Graph Registry and Hub, including metadata interoperability, usability, accessibility, and service quality.'
 
 # Social/Academic Networking
 social:
