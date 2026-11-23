@@ -354,3 +354,31 @@ display: none; position: fixed; bottom: 0; left: 0; width: 100%; background-colo
     color: #3d1600;
     background: #fed7aa;
   }
+
+.theme-dropdown .dropdown-menu .dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  transition: background-color 0.15s ease, color 0.15s ease;
+
+  .theme-option-icon {
+    flex-shrink: 0;
+    width: 1.15em;
+    text-align: center;
+    opacity: 0.9;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: rgba(69, 84, 107, 0.12) !important;
+    color: var(--color-anthrazit) !important;
+  }
+}
+
+.dark .theme-dropdown .dropdown-menu .dropdown-item {
+  &:hover,
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.12) !important;
+    color: rgba(255, 255, 255, 0.95) !important;
+  }
+}
