@@ -1,7 +1,7 @@
 ---
 # TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Renat Shigapov
+title: Renat Kaufmann
 
 # Full Name (for SEO)
 first_name: Renat
