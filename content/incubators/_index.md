@@ -25,14 +25,7 @@ sections:
 
         Some important dates to consider for this incubator cycle:
 
-        | Activity                 | Date                 |
-        |--------------------------|----------------------|
-        | Call opens               | November 16          |
-        | Application deadline     | December 31          |
-        | Selection / notification | January 22           |
-        | Incubator kick-off       | February 1           |
-        | Incubator period         | February 1 – June 30 |
-        | Final results            | July 15              |
+        {{< incubator_cycle_timeline year="2026" >}}
 
         **Need more information?** For more information about the KGI4NFDI Base Service, its services, guidelines, and Knowledge Graph registry, please visit <https://kgi.services.base4nfdi.de/>, or join our regular consultancy sessions (every third Wednesday of the month from 15:00 to 16:00) to ask any further questions.
 

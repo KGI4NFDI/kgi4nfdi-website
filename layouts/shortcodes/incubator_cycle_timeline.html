@@ -1,0 +1,72 @@
+{{- $year := .Get "year" | default "2026" -}}
+{{- $cycle := index hugo.Data.incubator_timeline.cycles $year -}}
+{{- if not $cycle -}}
+  {{ errorf "incubator_cycle_timeline: unknown cycle year %q" $year }}
+{{- end -}}
+{{- $today := now.Format "2006-01-02" -}}
+{{- $scratch := newScratch -}}
+{{- range $i, $item := $cycle.activities -}}
+  {{- $status := "upcoming" -}}
+  {{- if gt $today $item.phase_end -}}
+    {{- $status = "past" -}}
+  {{- else if and (ge $today $item.phase_start) (le $today $item.phase_end) -}}
+    {{- $status = "current" -}}
+  {{- end -}}
+  {{- $scratch.SetInMap "statuses" (printf "%d" $i) $status -}}
+{{- end -}}
+{{- $statuses := $scratch.Get "statuses" -}}
+{{- $hasCurrent := false -}}
+{{- range $i, $item := $cycle.activities -}}
+  {{- $st := index $statuses (printf "%d" $i) -}}
+  {{- if eq $st "current" -}}{{- $hasCurrent = true -}}{{- end -}}
+{{- end -}}
+{{- $nextMarked := false -}}
+<div class="incubator-timeline" data-cycle-year="{{ $year }}">
+  <table class="incubator-timeline__table">
+    <thead>
+      <tr>
+        <th scope="col">Activity</th>
+        <th scope="col">Date</th>
+        <th scope="col" class="incubator-timeline__status-col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range $i, $item := $cycle.activities -}}
+        {{- $status := index $statuses (printf "%d" $i) -}}
+        {{- if and (not $hasCurrent) (not $nextMarked) (eq $status "upcoming") -}}
+          {{- $allPast := true -}}
+          {{- if gt $i 0 -}}
+            {{- range $j := seq (sub $i 1) -}}
+              {{- $prev := index $statuses (printf "%d" (sub $j 1)) -}}
+              {{- if ne $prev "past" -}}{{- $allPast = false -}}{{- end -}}
+            {{- end -}}
+          {{- end -}}
+          {{- if $allPast -}}
+            {{- $status = "next" -}}
+            {{- $nextMarked = true -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $label := "Upcoming" -}}
+        {{- if eq $status "past" -}}{{- $label = "Complete" -}}
+        {{- else if eq $status "current" -}}{{- $label = "In progress" -}}
+        {{- else if eq $status "next" -}}{{- $label = "Up next" -}}
+        {{- end -}}
+      <tr
+        class="incubator-timeline__row incubator-timeline__row--{{ $status }}"
+        data-phase-start="{{ $item.phase_start }}"
+        data-phase-end="{{ $item.phase_end }}"
+      >
+        <th scope="row" class="incubator-timeline__activity">{{ $item.activity }}</th>
+        <td class="incubator-timeline__date">{{ $item.date }}</td>
+        <td class="incubator-timeline__status">
+          <span class="incubator-timeline__badge" data-status="{{ $status }}">{{ $label }}</span>
+        </td>
+      </tr>
+      {{- end -}}
+    </tbody>
+  </table>
+  <p class="incubator-timeline__legend" aria-live="polite">
+    <span class="incubator-timeline__legend-today">Timeline as of {{ now.Format "Monday, 2 January 2006" }}.</span>
+  </p>
+</div>
+<script src="{{ "js/incubator-timeline.js" | relURL }}" defer></script>

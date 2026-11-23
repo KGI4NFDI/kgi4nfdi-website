@@ -354,3 +354,108 @@ display: none; position: fixed; bottom: 0; left: 0; width: 100%; background-colo
     color: #3d1600;
     background: #fed7aa;
   }
+
+.incubator-timeline {
+  margin: 1.25rem 0 1.5rem;
+}
+
+.incubator-timeline__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+
+  th,
+  td {
+    padding: 0.65rem 0.85rem;
+    text-align: left;
+    border-bottom: 1px solid var(--color-grey-20);
+    vertical-align: middle;
+  }
+
+  thead th {
+    font-weight: 600;
+    border-bottom-width: 2px;
+    border-color: var(--color-grey-40);
+  }
+}
+
+.incubator-timeline__row {
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+
+  &--past {
+    color: var(--color-grey-60);
+
+    .incubator-timeline__activity {
+      text-decoration: line-through;
+      text-decoration-color: var(--color-grey-40);
+    }
+  }
+
+  &--current {
+    background: linear-gradient(
+      90deg,
+      rgba(10, 186, 240, 0.14) 0%,
+      rgba(10, 186, 240, 0.04) 100%
+    );
+    box-shadow: inset 3px 0 0 var(--color-blue);
+
+    .incubator-timeline__activity {
+      font-weight: 600;
+    }
+  }
+
+  &--next {
+    background: rgba(60, 124, 160, 0.08);
+    box-shadow: inset 3px 0 0 var(--color-blue-dark);
+  }
+
+  &--upcoming {
+    opacity: 0.92;
+  }
+}
+
+.incubator-timeline__badge {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+
+  &[data-status="past"] {
+    color: #1a3d2e;
+    background: #c8e6d8;
+  }
+
+  &[data-status="current"] {
+    color: #0c4a6e;
+    background: #bae6fd;
+    animation: incubator-timeline-pulse 2.2s ease-in-out infinite;
+  }
+
+  &[data-status="next"] {
+    color: #1e3a5f;
+    background: #dbeafe;
+  }
+
+  &[data-status="upcoming"] {
+    color: var(--color-anthrazit);
+    background: var(--color-grey-10);
+  }
+}
+
+.incubator-timeline__legend {
+  margin: 0.5rem 0 0;
+  font-size: 0.85rem;
+  color: var(--color-grey);
+}
+
+@keyframes incubator-timeline-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.78;
+  }
+}

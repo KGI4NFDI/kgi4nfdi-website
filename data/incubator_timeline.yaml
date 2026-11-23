@@ -1,0 +1,28 @@
+# Incubator cycle milestones. phase_start / phase_end (ISO) drive live status styling.
+cycles:
+  "2026":
+    activities:
+      - activity: Call opens
+        date: November 16
+        phase_start: "2026-11-16"
+        phase_end: "2026-11-16"
+      - activity: Application deadline
+        date: December 31
+        phase_start: "2026-11-17"
+        phase_end: "2026-12-31"
+      - activity: Selection / notification
+        date: January 22
+        phase_start: "2027-01-22"
+        phase_end: "2027-01-22"
+      - activity: Incubator kick-off
+        date: February 1
+        phase_start: "2027-02-01"
+        phase_end: "2027-02-01"
+      - activity: Incubator period
+        date: February 1 – June 30
+        phase_start: "2027-02-01"
+        phase_end: "2027-06-30"
+      - activity: Final results
+        date: July 15
+        phase_start: "2027-07-15"
+        phase_end: "2027-07-15"
